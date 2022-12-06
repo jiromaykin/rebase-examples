@@ -26,6 +26,10 @@ git push --force-with-lease
 
 So many merge conflicts!
 
-### When to Squash Your Commits
+## When to Squash Your Commits
 
 Combine multiple existing commits into a single one. Squashing commits is the preferred way to merge a feature branch back into a long-running branch like "main".
+
+### using Git's "Interactive Rebase" feature
+
+```$ git rebase -i HEAD~3```
