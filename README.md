@@ -37,3 +37,7 @@ Combine multiple existing commits into a single one. Squashing commits is the pr
 If you mark one or more lines as "squash", they will be combined with the one above.
 
 After entering a commit message for the new, combining commit, the Interactive Rebase is completed.
+
+now push to the remote, with force, since we rewrote history:
+
+```$ git push --force-with-lease```
