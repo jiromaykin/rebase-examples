@@ -1,2 +1,3 @@
 # rebase-examples
-learnign rebase and sqaush and stash
+
+learning rebase and squash and stash
