@@ -41,3 +41,16 @@ After entering a commit message for the new, combining commit, the Interactive R
 now push to the remote, with force, since we rewrote history:
 
 ```$ git push --force-with-lease```
+So many merge conflicts!
+
+## When to Squash Your Commits
+
+Combine multiple existing commits into a single one. Squashing commits is the preferred way to merge a feature branch back into a long-running branch like "main".
+
+### using Git's "Interactive Rebase" feature
+
+```$ git rebase -i HEAD~3```
+
+If you mark one or more lines as "squash", they will be combined with the one above.
+
+After entering a commit message for the new, combining commit, the Interactive Rebase is completed.
