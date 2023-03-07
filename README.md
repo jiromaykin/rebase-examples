@@ -18,6 +18,8 @@ now push to the remote, with force, since we rewrote history:
 
 ```$ git push --force-with-lease```
 
+---
+
 ### Merge conflicts
 
 Learning rebase and squash and stash.
