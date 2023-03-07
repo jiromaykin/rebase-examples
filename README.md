@@ -1,6 +1,8 @@
 # Rebase-examples
 
-English
+Go here for [the 'amend'](amend/README.md) workflow.
+
+Go here for [squashing lots of commits](squish/README.md) into 1 commit.
 
 ## When to Squash Your Commits
 
