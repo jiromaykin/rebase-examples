@@ -10,7 +10,7 @@ Set rebasing correctly: $ `git config --global pull.rebase true`
 
 Check-out your feature branch and ask for a rebase: $ `git rebase -i main`
 
-In the VIM rebase file, type '`i`' in order to insert `fixup` = like "squash", but discard this commit's log message. Only '`pick`' your oldest/first commit - and 'fixup' all the others, bu do a '`fixup -C`' in order to keep the text of your last commit message, if that is the text you want o keep. Hit 'Escape' and type :wq to save and exit.
+In the VIM rebase file, type '`i`' in order to insert `fixup` = like "squash", but discard this commit's log message. Only '`pick`' your oldest/first commit - and 'fixup' all the others, but do a '`fixup -C`' in order to keep the text of your last commit message, if that is the text you want to keep. Hit 'Escape' and type `:wq` to save and exit.
 
 `pick [1] Ugly commit message`
 
