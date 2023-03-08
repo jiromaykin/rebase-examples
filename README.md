@@ -24,6 +24,8 @@ now push to the remote, with force, since we rewrote history:
 
 ### Merge conflicts
 
+https://www.maykinmedia.nl/blog/2017/nov/20/git-rebasing-make-your-commit-history-pretty/
+
 Learning rebase and squash and stash.
 Here I add a merge conflict.
 
