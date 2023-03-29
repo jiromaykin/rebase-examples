@@ -12,7 +12,7 @@ Combine multiple existing commits into a single one. Squashing commits is the pr
 
 ```$ git rebase -i HEAD~3```
 
-If you mark one or more lines as "squash", they will be combined with the one above.
+If you mark one or more lines as "squash", they will be combined with the one above (but commit messages are kept, instead use "fixup").
 
 After entering a commit message for the new, combining commit, the Interactive Rebase is completed.
 
