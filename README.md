@@ -51,3 +51,5 @@ now push to the remote, with force, since we rewrote history:
 git push --force-with-lease
 
 So many merge conflicts!
+
+New: line: what are my GIT credentials?
