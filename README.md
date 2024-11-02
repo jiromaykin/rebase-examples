@@ -52,4 +52,4 @@ git push --force-with-lease
 
 So many merge conflicts!
 
-New: line: what are my GIT credentials?
+New: line: what are my GIT credentials? (Use Personal Access Token only)
